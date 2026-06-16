@@ -2,8 +2,8 @@
 /**
  * Plugin Name: Classic Visual Editor Options
  * Description: Restores the option to disable the visual editor in user profiles – for old-school WordPress users who still believe that "Code is Poetry."
- * Version: 1.0.4
- * Author: DVeb (Dejan S. Višekruna)
+ * Version: 1.0.5
+ * Author: Supracorona
  * Author URI: https://profiles.wordpress.org/supracorona
  * Requires at least: 5.0
  * Tested up to: 7.0
@@ -115,7 +115,7 @@ add_action('admin_enqueue_scripts', 'cveo_enqueue_inline_js');
 function cveo_enqueue_inline_js($hook) {
     if (!in_array($hook, ['profile.php', 'user-edit.php', 'index.php', 'edit.php', 'post.php', 'post-new.php'], true)) return;
 
-    wp_register_script('cveo-inline-script', '', [], '1.0.4', true);
+    wp_register_script('cveo-inline-script', '', [], '1.0.5', true);
     $inline_js  = '';
     $inline_js .= 'document.addEventListener("DOMContentLoaded", function () {';
     $inline_js .= 'const row = document.querySelector("tr.user-rich-editing-wrap");';
