@@ -4,7 +4,7 @@ Tags: visual editor, classic editor, disable editor, user profile, plain text
 Requires at least: 5.0
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.0.5
+Stable tag: 1.0.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -94,6 +94,9 @@ If you would like to contribute a translation, please visit:
 https://translate.wordpress.org/projects/wp-plugins/classic-visual-editor-options/
 
 == Changelog ==
+
+= 1.0.6 =
+* Removed the redundant "Tested up to" field from the main plugin PHP header to comply with WordPress.org Plugin Check requirements.
 
 = 1.0.5 =
 * Updated plugin author identity for consistency with the WordPress.org profile.

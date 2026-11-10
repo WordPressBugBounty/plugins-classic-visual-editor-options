@@ -2,11 +2,10 @@
 /**
  * Plugin Name: Classic Visual Editor Options
  * Description: Restores the option to disable the visual editor in user profiles – for old-school WordPress users who still believe that "Code is Poetry."
- * Version: 1.0.5
+ * Version: 1.0.6
  * Author: Supracorona
  * Author URI: https://profiles.wordpress.org/supracorona
  * Requires at least: 5.0
- * Tested up to: 7.1
  * Requires PHP: 7.4
  * License: GPLv2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
